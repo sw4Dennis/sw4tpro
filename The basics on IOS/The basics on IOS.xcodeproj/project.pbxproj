@@ -15,6 +15,7 @@
 		19FD44612B2E56F400384330 /* The_basics_on_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD44602B2E56F400384330 /* The_basics_on_IOSTests.swift */; };
 		19FD446B2B2E56F400384330 /* The_basics_on_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD446A2B2E56F400384330 /* The_basics_on_IOSUITests.swift */; };
 		19FD446D2B2E56F400384330 /* The_basics_on_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD446C2B2E56F400384330 /* The_basics_on_IOSUITestsLaunchTests.swift */; };
+		19FD447A2B2E585400384330 /* MyCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD44792B2E585400384330 /* MyCLI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		19FD44662B2E56F400384330 /* The basics on IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The basics on IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FD446A2B2E56F400384330 /* The_basics_on_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_basics_on_IOSUITests.swift; sourceTree = "<group>"; };
 		19FD446C2B2E56F400384330 /* The_basics_on_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_basics_on_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19FD44792B2E585400384330 /* MyCLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCLI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				19FD444D2B2E56F300384330 /* The_basics_on_IOSApp.swift */,
+				19FD44792B2E585400384330 /* MyCLI.swift */,
 				19FD444F2B2E56F300384330 /* ContentView.swift */,
 				19FD44512B2E56F300384330 /* Item.swift */,
 				19FD44532B2E56F300384330 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FD447A2B2E585400384330 /* MyCLI.swift in Sources */,
 				19FD44502B2E56F300384330 /* ContentView.swift in Sources */,
 				19FD44522B2E56F300384330 /* Item.swift in Sources */,
 				19FD444E2B2E56F300384330 /* The_basics_on_IOSApp.swift in Sources */,
